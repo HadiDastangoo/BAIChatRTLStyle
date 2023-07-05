@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300&display=swap');
+
+textarea,
+.leading-relaxed,
+.leading-relaxed .markdown-body p,
+.leading-relaxed .markdown-body ol,
+.leading-relaxed .markdown-body ul {
+	direction: rtl;
+	font-family: 'Vazirmatn', sans-serif !important;
+	line-height:1.6rem;
+}
+.leading-relaxed .markdown-body p {
+	margin:15px auto 10px;
+}
+.leading-relaxed .markdown-body ol,
+.leading-relaxed .markdown-body ul {
+    margin:10px auto;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 5px;
+}
+pre.code-block-wrapper {
+	direction:ltr;
+	background-color: #2c353f !important;
+}
+.code-block-header__lang {
+    background-color: slateblue;
+    padding:3px 10px 15px 20px;
+    border-radius: 7px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    text-transform: uppercase;
+}
