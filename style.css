@@ -25,9 +25,9 @@ pre.code-block-wrapper {
 }
 .code-block-header__lang {
     background-color: slateblue;
-    padding:3px 10px 15px 20px;
+    padding:0 10px 15px 20px;
     border-radius: 7px;
-    height: 30px;
+    height: 26px;
     line-height: 30px;
     position: absolute;
     left: -10px;
