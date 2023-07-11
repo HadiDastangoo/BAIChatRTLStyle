@@ -6,6 +6,7 @@ textarea,
 .leading-relaxed .markdown-body ol,
 .leading-relaxed .markdown-body ul {
 	direction: rtl;
+	text-align:right;
 	font-family: 'Vazirmatn', sans-serif !important;
 	line-height:1.6rem;
 }
@@ -21,8 +22,8 @@ textarea,
 }
 pre.code-block-wrapper {
 	direction:ltr;
-	background-color: #2c353f !important;
 	text-align:left;
+	background-color: #2c353f !important;
 }
 .code-block-header__lang {
     background-color: slateblue;
