@@ -15,10 +15,14 @@ textarea,
 }
 .leading-relaxed .markdown-body ol,
 .leading-relaxed .markdown-body ul {
-    margin:10px auto;
-    padding: 10px 30px;
+    margin:0 auto;
+    padding: 10px 15px 10px 0;
     display: inline-block;
     border-radius: 5px;
+    width: 100%;
+}
+.leading-relaxed .markdown-body ul > li {
+	list-style-type: circle;
 }
 pre.code-block-wrapper {
 	direction:ltr;
